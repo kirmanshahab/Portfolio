@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    box-sizing: border-box;
+    
+    
+}
+
+#main{
+       background: linear-gradient(to top, #000428, #004e92);
+}
+  #avatar{
+    height: 353px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}  
+.fab{
+    font-size: 30px;
+}
+#role{
+    background-color: black;
+}
+.custom-link{
+    text-decoration: none;
+    color: white;
+}
+.hov{
+    transition: transform 0.5s;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
